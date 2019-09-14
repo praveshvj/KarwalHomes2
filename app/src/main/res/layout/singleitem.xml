@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:anādroid="http://schemas.android.com/tools"
+    android:layout_margin="8dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        android:layout_margin="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp">
+            <ImageView
+                android:id="@+id/myimage"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@mipmap/ic_launcher_round"
+                anādroid:ignore="ContentDescription" />
+            <TextView
+                android:id="@+id/rent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RENT"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="32sp"
+                android:layout_marginTop="310dp"
+                />
+            <!--<TextView-->
+                <!--android:id="@+id/bhk"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="bhk"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--android:textColor="#000"-->
+                <!--android:textSize="14sp"-->
+                <!--android:layout_marginTop="310dp"-->
+                <!--anādroid:ignore="RelativeOverlap"-->
+                <!--android:layout_alignParentRight="true" />-->
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginTop="350dp"
+                anādroid:ignore="RelativeOverlap" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

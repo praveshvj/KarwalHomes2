@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+
+    <!--<ImageView-->
+    <!--android:id="@+id/myimageD"-->
+    <!--android:layout_width="400dp"-->
+    <!--android:layout_height="200dp"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:src="@drawable/download"/>-->
+
+    <!--recycler view added imageview commented-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!--<ScrollView-->
+        <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:padding="32sp">-->
+
+        <!--<TableLayout-->
+            <!--android:id="@+id/tablelayout"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:paddingEnd="2dip" >-->
+
+            <!--<TableRow>-->
+                <!--<TextView-->
+                    <!--android:textSize="18sp"-->
+                    <!--android:id="@+id/tv1"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="rent"-->
+                    <!--android:textColor="#000"-->
+                    <!--android:textStyle="bold"/>-->
+                <!--<TextView-->
+                    <!--android:textSize="18sp"-->
+                    <!--android:layout_marginStart="8dp"-->
+                    <!--android:id="@+id/tv2"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Furnish Type"-->
+                    <!--android:textColor="#000"-->
+                    <!--android:textStyle="bold"/>-->
+            <!--</TableRow>-->
+
+
+            <!--<TableRow>-->
+                <!--<TextView-->
+                    <!--android:textSize="18sp"-->
+                    <!--android:id="@+id/tv3"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="address"-->
+                    <!--android:textColor="#000"-->
+                    <!--android:textStyle="bold"/>-->
+                <!--<TextView-->
+                    <!--android:textSize="18sp"-->
+                    <!--android:layout_marginStart="8dp"-->
+                    <!--android:id="@+id/tv4"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Furnish Type"-->
+                    <!--android:textColor="#000"-->
+                    <!--android:textStyle="bold"/>-->
+            <!--</TableRow>-->
+
+
+            <!--<TableRow>-->
+                <!--<TextView-->
+                    <!--android:textSize="18sp"-->
+                    <!--android:id="@+id/tv5"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Accomodation"-->
+                    <!--android:textColor="#000"-->
+                    <!--android:textStyle="bold"/>-->
+                <!--<TextView-->
+                    <!--android:textSize="18sp"-->
+                    <!--android:layout_marginStart="8dp"-->
+                    <!--android:id="@+id/tv6"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Furnish Type"-->
+                    <!--android:textColor="#000"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:layout_marginLeft="8dp" />-->
+            <!--</TableRow>-->
+        <!--</TableLayout>-->
+    <!--</ScrollView>-->
+
+</LinearLayout>

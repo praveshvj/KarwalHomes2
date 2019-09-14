@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "305731770150",
+    "firebase_url": "https://karwalhomes-e6877.firebaseio.com",
+    "project_id": "karwalhomes-e6877",
+    "storage_bucket": "karwalhomes-e6877.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305731770150:android:8d530da4c974d01ecd13e7",
+        "android_client_info": {
+          "package_name": "jaipur.bit.karwalhomes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305731770150-6spmat38mgtea9ja3f62outtp3j42tud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jaipur.bit.karwalhomes",
+            "certificate_hash": "d9a5256baec7644ba8478468e97a05008ab919ef"
+          }
+        },
+        {
+          "client_id": "305731770150-0qf2asic4qb3mfgkc7kfhejk2cmm122s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNVLhOResIF2NQz08YEqsKC6-eWxgtYkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305731770150-0qf2asic4qb3mfgkc7kfhejk2cmm122s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
